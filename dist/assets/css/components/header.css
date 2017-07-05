@@ -1,0 +1,18 @@
+.header .logo {
+  padding: 30px 0; }
+
+.header .nav .main-menu {
+  float: right; }
+  .header .nav .main-menu li {
+    float: left; }
+    .header .nav .main-menu li a {
+      margin: 0;
+      padding: 39px 25px;
+      display: block;
+      color: #484c55;
+      border-bottom: 3px solid transparent;
+      font-size: 15px; }
+      .header .nav .main-menu li a:hover {
+        border-bottom: 3px solid #49cbcd;
+        background: #f8f9fb;
+        color: #49cbcd; }

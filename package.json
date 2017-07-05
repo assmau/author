@@ -1,0 +1,28 @@
+{
+  "name": "assmau",
+  "version": "1.0.0",
+  "description": "This is test work",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-image": "^2.9.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assmau/author.git"
+  },
+  "author": "Author",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/assmau/author/issues"
+  },
+  "homepage": "https://github.com/assmau/author#readme"
+}

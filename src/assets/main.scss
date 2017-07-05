@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import "common/common";
+@import "components/header";
+@import "components/banner";
+@import "components/team";
+@import "components/service";
+@import "components/contact";
+@import "components/footer";
+@import "mixin/mixin";
+@import "variables";
+
+
+* {
+	@include box-sizing(border-box);
+}
+
+html {
+	height: 100%;
+
+	body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+
+		.layout {
+			min-height: 100%;
+		}
+
+		.container {
+			width: 1170px;
+			display: table;
+			margin: 0 auto;
+		}
+
+		.row {
+			margin-right: -15px;
+    		margin-left: -15px;
+    		display: table;
+		}
+	}
+}
