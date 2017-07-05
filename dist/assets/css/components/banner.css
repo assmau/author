@@ -1,12 +1,21 @@
-.banner .bx-wrapper {
-  border: none;
-  box-shadow: none; }
-  .banner .bx-wrapper .bx-viewport {
-    left: 0; }
-  .banner .bx-wrapper .bx-slider {
-    width: 297% !important; }
-  .banner .bx-wrapper .bx-pager.bx-default-pager {
-    display: none; }
+.banner {
+  margin-top: 100px; }
+  .banner .bx-wrapper {
+    border: none;
+    box-shadow: none; }
+    .banner .bx-wrapper .bx-viewport {
+      left: 0; }
+    .banner .bx-wrapper .bx-slider {
+      width: 297% !important; }
+    .banner .bx-wrapper .bx-pager.bx-default-pager {
+      display: none; }
+    .banner .bx-wrapper .bx-controls-direction a {
+      width: 54px;
+      height: 54px; }
+    .banner .bx-wrapper .bx-prev {
+      background: url(../../img/arrows.png) no-repeat 0 0; }
+    .banner .bx-wrapper .bx-next {
+      background: url(../../img/arrows.png) no-repeat -63px 0; }
 
 /* Default*/
 /** VARIABLES **/
@@ -47,7 +56,7 @@ ul.bxslider {
     width: 100%; }
   .bx-wrapper .bx-loading {
     min-height: 50px;
-    background: url("images/bx_loader.gif") center center no-repeat #ffffff;
+    background: url("../../img/bx_loader.gif") center center no-repeat #ffffff;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -84,14 +93,16 @@ ul.bxslider {
     line-height: 0; }
   .bx-wrapper .bx-prev {
     left: 10px;
-    background: url("images/controls.png") no-repeat 0 -32px; }
-    .bx-wrapper .bx-prev:hover, .bx-wrapper .bx-prev:focus {
-      background-position: 0 0; }
+    background: url("../../img/controls.png") no-repeat 0 -32px;
+    /*&:hover, &:focus {
+      background-position: 0 0;
+    }*/ }
   .bx-wrapper .bx-next {
     right: 10px;
-    background: url("images/controls.png") no-repeat -43px -32px; }
-    .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus {
-      background-position: -43px 0; }
+    background: url("../../img/controls.png") no-repeat -43px -32px;
+    /*&:hover, &:focus {
+      background-position: -43px 0;
+    }*/ }
   .bx-wrapper .bx-controls-direction a {
     position: absolute;
     top: 50%;

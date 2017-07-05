@@ -1,0 +1,28 @@
+.plan {
+  background: #f1f1f1;
+  padding: 105px 0; }
+  .plan .item {
+    padding: 0 30px;
+    text-align: center;
+    color: #4e525d; }
+    .plan .item .content-item {
+      text-align: center;
+      background: #fff; }
+      .plan .item .content-item .sub-item {
+        padding: 20px 0;
+        border-bottom: 1px solid #ecf0f1; }
+        .plan .item .content-item .sub-item.content {
+          background: #485460;
+          color: #fff;
+          font-size: 22px; }
+        .plan .item .content-item .sub-item.marked {
+          background: #f8f9fb; }
+        .plan .item .content-item .sub-item.link {
+          padding: 35px 0;
+          background: #f8f9fb; }
+          .plan .item .content-item .sub-item.link a {
+            color: #fff;
+            background: #49cbcd;
+            font-size: 15px;
+            padding: 5px 10px;
+            border-radius: 4px; }

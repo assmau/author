@@ -1,0 +1,32 @@
+.team {
+	padding: 30px 0;
+
+	.title {
+		margin-bottom: 130px;
+
+		h1 {
+			font-size: 42px;
+			font-weight: 500;
+		}
+	}
+
+	.item {
+		text-align: center;
+		color: #4e525d;
+		padding: 0 30px;
+		.icon {
+			background: #eeeef0;
+    		width: 195px;
+    		height: 195px;
+    		margin: auto auto 75px auto;
+    		border-radius: 50%;
+    		text-align: center;
+    		line-height: 227px;
+		}
+
+		p {
+			margin-top: 32px;
+			font-size: 14px;
+		}
+	}
+}

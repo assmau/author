@@ -1,4 +1,5 @@
 .banner {
+    margin-top: 100px;
 
   .bx-wrapper {
     border: none;
@@ -17,8 +18,20 @@
         display: none;
       }
     }
-  }
 
+    .bx-controls-direction { 
+      a {
+        width: 54px;
+        height: 54px;
+      }
+    }
+    .bx-prev {
+      background: url(../../img/arrows.png) no-repeat 0 0;
+    }
+    .bx-next {
+          background: url(../../img/arrows.png) no-repeat -63px 0;
+    }
+  }
 }
 
 
@@ -70,7 +83,7 @@ ul.bxslider {
   }
   .bx-loading {
     min-height: 50px;
-    background: url('images/bx_loader.gif') center center no-repeat #ffffff;
+    background: url('../../img/bx_loader.gif') center center no-repeat #ffffff;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -113,17 +126,17 @@ ul.bxslider {
   }
   .bx-prev {
     left: 10px;
-    background: url('images/controls.png') no-repeat 0 -32px;
-    &:hover, &:focus {
+    background: url('../../img/controls.png') no-repeat 0 -32px;
+    /*&:hover, &:focus {
       background-position: 0 0;
-    }
+    }*/
   }
   .bx-next {
     right: 10px;
-    background: url('images/controls.png') no-repeat -43px -32px;
-    &:hover, &:focus {
+    background: url('../../img/controls.png') no-repeat -43px -32px;
+    /*&:hover, &:focus {
       background-position: -43px 0;
-    }
+    }*/
   }
   .bx-controls-direction a {
     position: absolute;

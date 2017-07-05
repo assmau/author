@@ -1,0 +1,43 @@
+.plan {
+	background: #f1f1f1;
+	padding: 105px 0;
+
+	.item {
+		padding: 0 30px;
+    	text-align: center;
+    	color: #4e525d;
+
+    	.content-item {
+    		text-align: center;
+    		background: #fff;
+
+    		.sub-item {
+    			padding: 20px 0;
+    			border-bottom: 1px solid #ecf0f1;
+
+    			&.content {
+    				background: #485460;
+    				color: #fff;
+    				font-size: 22px;
+    			}
+
+    			&.marked {
+    				background: #f8f9fb;
+    			}
+
+    			&.link {
+    				padding: 35px 0;
+    				background: #f8f9fb;
+
+    				a {
+    					color: #fff;
+    					background: #49cbcd;
+    					font-size: 15px;
+    					padding: 5px 10px;
+    					border-radius: 4px;
+    				}
+    			}
+    		}
+    	}
+	}
+}
