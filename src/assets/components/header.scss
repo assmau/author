@@ -1,4 +1,5 @@
 @import "../mixin/mixin";
+@import "../common/common";
 @import "../variables";
 
 .header {
@@ -6,14 +7,37 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	background: #fff;
+	background: $color-white;
 	z-index: 99999;
+	
 	
 	.logo {
 		padding: 30px 0;
 	}
 
 	.nav {
+
+		.toggle-menu {
+			position: absolute;
+    		top: 33px;
+    		right: 20px;
+    		display: none;
+
+    		.btn-toggle {
+    			border: none;
+    			display: block;
+    			width: 40px;
+    			padding: 8px 9px 5px 9px;
+    			background: #44c0c2;
+    			cursor: pointer;
+
+    			.line {
+    				border-top: 2px solid #fff;
+    				margin-bottom: 4px;
+    				display: block;
+    			}
+    		}
+		}
 
 		.main-menu {
 			float: right;

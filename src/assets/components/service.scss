@@ -1,28 +1,41 @@
+@import "../mixin/mixin";
+@import "../common/common";
+@import "../variables";
+
 .plan {
 	background: #f1f1f1;
 	padding: 105px 0;
 
 	.item {
-		padding: 0 30px;
+		padding: 0 15px;
     	text-align: center;
     	color: #4e525d;
 
     	.content-item {
     		text-align: center;
-    		background: #fff;
+    		background: $color-white;
 
     		.sub-item {
-    			padding: 20px 0;
+    			padding: 15px 0;
     			border-bottom: 1px solid #ecf0f1;
 
     			&.content {
     				background: #485460;
-    				color: #fff;
-    				font-size: 22px;
+    				color: $color-white;
+    				font-size: $font-size-xl-lg;
+
+                    h2 {
+                        font-weight: 400;
+                    }
     			}
 
     			&.marked {
     				background: #f8f9fb;
+
+                    strong {
+                        font-size: $font-size-lg;
+                        font-weight: 600;
+                    }
     			}
 
     			&.link {
@@ -30,14 +43,18 @@
     				background: #f8f9fb;
 
     				a {
-    					color: #fff;
-    					background: #49cbcd;
-    					font-size: 15px;
-    					padding: 5px 10px;
-    					border-radius: 4px;
+    					color: $color-white;
+                        background: #788492;
+                        font-size: $font-size-st;
+                        padding: 10px 55px;
+                        border-radius: 1px;
     				}
     			}
     		}
     	}
 	}
+
+    .hover {
+        background: #49cbcd !important;
+    }
 }

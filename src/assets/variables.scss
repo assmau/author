@@ -1,3 +1,12 @@
+$color-white: #fff;
+$color-black: #000;
+$color-red: #ff0000;
+$color-gray40: #666;
+$color-gray20: #333;
+$color-dark-gray: #a8a8a8;
+
+
+
 
 $font-size-sm: 14px;
 $font-size-st: 15px;
@@ -5,3 +14,39 @@ $font-size-md: 17px;
 $font-size-lg: 20px;
 $font-size-xl-lg: 22px;
 $font-size-xxl-lg: 24px;
+$font-size-xxxl-lg: 28px;
+
+$font-title-lg: 42px;
+$font-title-xl: 61px;
+
+$font-size-h1: 36px;
+$font-size-h2: 32px;
+$font-size-h3: 24px;
+$font-size-h4: 18px;
+$font-size-h5: 14px;
+$font-size-h6: 12px;
+
+
+h1 {
+	font-size: $font-size-h1;
+}
+
+h2 {
+	font-size: $font-size-h2;
+}
+
+h3 {
+	font-size: $font-size-h3;
+}
+
+h4 {
+	font-size: $font-size-h4;
+}
+
+h5 {
+	font-size: $font-size-h5;
+}
+
+h6 {
+	font-size: $font-size-h6;
+}
